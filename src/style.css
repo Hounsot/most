@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --accent-font: 'Cormorant Garamond', serif;
+  --dark-grey: #1D2023;
+}
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--accent-font);
+}
+h1 {
+  font-size: 152px;
+  line-height: 0.9;
+  @media screen and (max-width: 1536px) {
+    font-size: 100px;
+  }
+  @media screen and (max-width: 1300px) {
+    font-size: 56px;
+  }
+  @media screen and (max-width: 900px) {
+    font-size: 36px;
+  }
+}
+p {
+  font-size: 22px;
+  line-height: 1;
+}
+.arrow{
+  font-size: 48px;
+  width: 30px;
+  height: 18px;
+  font-family: var(--accent-font);
+  line-height: 1;
+}

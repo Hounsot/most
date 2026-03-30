@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Мост цветов — Подписка на цветы</title>
+</head>
+
+<body>
+  <header class="fixed top-0 w-full flex justify-center items-center z-[100]">
+    <img src="Nav.svg" alt="">
+  </header>
+  <section id="hero"
+    class="relative flex flex-col bg-[url('/public/grid.svg')] bg-cover bg-center justify-between w-full bg-[#1D2023] w-full h-screen p-[20px] pt-[100px] text-white rounded-b-[48px] overflow-clip max-md:rounded-b-[24px]">
+    <img class="absolute top-0 right-0 z-1 max-xl:hidden" src="FlowerTop.png" alt="">
+    <img class="absolute bottom-0 left-0 z-1 max-xl:hidden" src="FlowerBottom.png" alt="">
+    <img class="absolute bottom-0 left-1/2 -translate-x-1/2 z-1 xl:hidden" src="MobileHero.png" alt="">
+    <img
+      class="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-auto h-full min-h-full object-cover max-w-auto pointer-events-none max-md:rotate-90 max-w-none"
+      src="background.svg" alt="">
+    <div class="flex flex-col md:gap-[24px] z-[2] max-xl:items-center gap-[12px]">
+      <h1 class="uppercase max-xl:text-center">Подписка на мост цветов</h1>
+      <p class="max-w-[578px] w-full text-[22px] leading-1 max-xl:text-center max-xl:text-[16px]">Не забудем поздравить
+        ваших
+        близких или украсить
+        мероприятие, пока вы занимаетесь своими делами</p>
+    </div>
+    <div class="w-full flex xl:justify-end z-[2]">
+      <div
+        class="w-fit h-fit bg-white gap-[24px] rounded-full flex justify-between items-center px-[20px] py-[12px] xl:px-[40px] xl:py-[24px] text-[var(--dark-grey)] cursor-pointer max-xl:w-full">
+        <p class="text-[32px] leading-1 max-xl:text-[24px]">Начать цветение</p>
+        <img class="arrow" src="arrow.svg" alt="">
+      </div>
+  </section>
+  <footer class="flex flex-col gap-[0] w-full h-fit flex justify-center items-center bg-[#1D2023] px-[20px]">
+    <div class="w-full h-fit py-[24px] border-b border-dashed border-white">
+      <img src="logofooter.svg" alt="">
+      <div class="w-full h-fit flex justify-between items-center text-white">
+        <p class="text-[12px] opacity-30 uppercase">estd</p>
+        <p class="text-[12px] opacity-30 uppercase">2020</p>
+      </div>
+    </div>
+    <div class="flex flex-row gap-[12px]">
+    </div>
+    <div class="w-full h-fit py-[24px]">
+      <div class="w-full h-fit flex justify-between items-center text-white">
+        <p class="w-full text-[12px] uppercase">2026 © мост цветов</p>
+        <div class="flex gap-[12px]">
+          <div class="w-[24px] h-[24px] flex justify-center items-center rounded-full bg-white">
+            <img src="max_logo.svg" alt="">
+          </div>
+          <div class="w-[24px] h-[24px] flex justify-center items-center rounded-full bg-white">
+            <img src="tg_logo.svg" alt="">
+          </div>
+          <div class="w-[24px] h-[24px] flex justify-center items-center rounded-full bg-white">
+            <img src="whats_logo.svg" alt="">
+          </div>
+        </div>
+        <p class="w-full text-[12px] uppercase text-right">дизайн БАЙ ZAUM & kreaper</p>
+      </div>
+    </div>
+  </footer>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
